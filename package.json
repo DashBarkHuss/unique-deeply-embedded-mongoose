@@ -1,7 +1,7 @@
 {
   "name": "nodejs-mongoose-one-to-many",
   "version": "1.0.0",
-  "description": "Mongoose one to many relationship example",
+  "description": "Mongoose unique deeply embedded subdocuments example",
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,11 @@
     "mongoose",
     "nodejs",
     "one-to-many",
-    "mongodb"
+    "mongodb",
+    "unique",
+    "embedded"
   ],
-  "author": "bezkoder",
+  "author": "Dashiell Bark-Huss",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^5.7.6"
